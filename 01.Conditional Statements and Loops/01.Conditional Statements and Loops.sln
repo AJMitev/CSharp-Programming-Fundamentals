@@ -27,21 +27,35 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab - 11.Odd Number", "Lab 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab - 12.Number checker", "Lab - 12.Number checker\Lab - 12.Number checker.csproj", "{0E2C4FB6-D0B4-4C43-80C9-56A8AEDB8327}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 1. Choose a Drink", "Problem 1. Choose a Drink\Problem 1. Choose a Drink.csproj", "{E770C846-C193-4C33-AE57-A907AAF670D7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 01. Choose a Drink", "Problem 1. Choose a Drink\Problem 01. Choose a Drink.csproj", "{E770C846-C193-4C33-AE57-A907AAF670D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 2. Choose a Drink 2.0", "Problem 2. Choose a Drink 2.0\Problem 2. Choose a Drink 2.0.csproj", "{21800930-2F08-4117-A900-9CA2BF64F71A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 02. Choose a Drink 2.0", "Problem 2. Choose a Drink 2.0\Problem 02. Choose a Drink 2.0.csproj", "{21800930-2F08-4117-A900-9CA2BF64F71A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 3. Restaurant Discount", "Problem 3. Restaurant Discount\Problem 3. Restaurant Discount.csproj", "{F92E0A45-25BB-473D-87C6-0E71BE09646A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 03. Restaurant Discount", "Problem 3. Restaurant Discount\Problem 03. Restaurant Discount.csproj", "{F92E0A45-25BB-473D-87C6-0E71BE09646A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 4. Hotel", "Problem 4. Hotel\Problem 4. Hotel.csproj", "{1E50BB91-16B2-4253-AA78-94D7383D9698}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 04. Hotel", "Problem 4. Hotel\Problem 04. Hotel.csproj", "{1E50BB91-16B2-4253-AA78-94D7383D9698}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 5. Word in Plural", "Problem 5. Word in Plural\Problem 5. Word in Plural.csproj", "{9DBAF44F-38E1-4017-92FC-EC79981A7D20}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 05. Word in Plural", "Problem 5. Word in Plural\Problem 05. Word in Plural.csproj", "{9DBAF44F-38E1-4017-92FC-EC79981A7D20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 6. Interval of Numbers", "Problem 6. Interval of Numbers\Problem 6. Interval of Numbers.csproj", "{2A3556BC-6BEF-4CEF-B4F1-613C848B08E5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 06. Interval of Numbers", "Problem 6. Interval of Numbers\Problem 06. Interval of Numbers.csproj", "{2A3556BC-6BEF-4CEF-B4F1-613C848B08E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 7. Cake Ingredients", "Problem 7. Cake Ingredients\Problem 7. Cake Ingredients.csproj", "{9B83436E-4CF3-4AB8-B7C6-650F0DC115D1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 07. Cake Ingredients", "Problem 7. Cake Ingredients\Problem 07. Cake Ingredients.csproj", "{9B83436E-4CF3-4AB8-B7C6-650F0DC115D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 8. Calories Counter", "Problem 8. Calories Counter\Problem 8. Calories Counter.csproj", "{92FFB65B-6C4F-4839-A382-D7444EC879B3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 08. Calories Counter", "Problem 8. Calories Counter\Problem 08. Calories Counter.csproj", "{92FFB65B-6C4F-4839-A382-D7444EC879B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 09. Count the Integers", "Problem 9. Count the Integers\Problem 09. Count the Integers.csproj", "{6DE9A400-BB8A-4937-9B84-843F49876A3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 10. Triangle of Numbers", "Problem 10. Triangle of Numbers\Problem 10. Triangle of Numbers.csproj", "{3C4436E7-918A-4956-8EE9-19A1267C9477}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 12. Test Numbers", "Problem 12. Test Numbers\Problem 12. Test Numbers.csproj", "{1F2313D9-E383-4781-A96D-09C03BAD8FE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 13. Game of Numbers", "Problem 13. Game of Numbers\Problem 13. Game of Numbers.csproj", "{7C76856A-0385-42E7-B860-DA90300A19F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 14. Magic Letter", "Problem 14. Magic Letter\Problem 14. Magic Letter.csproj", "{2882065C-7F4E-4ADC-A537-5BFE1506587A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 15. Neighbour Wars", "Problem 15. Neighbour Wars\Problem 15. Neighbour Wars.csproj", "{F05A22E4-610B-43BB-BC6D-EBC64FDCAEE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 11. 5 Different Numbers", "Problem 11. 5 Different Numbers\Problem 11. 5 Different Numbers.csproj", "{7003BE32-57E2-4C9D-97F5-A7EB24FB3C65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +143,34 @@ Global
 		{92FFB65B-6C4F-4839-A382-D7444EC879B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92FFB65B-6C4F-4839-A382-D7444EC879B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92FFB65B-6C4F-4839-A382-D7444EC879B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DE9A400-BB8A-4937-9B84-843F49876A3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DE9A400-BB8A-4937-9B84-843F49876A3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DE9A400-BB8A-4937-9B84-843F49876A3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DE9A400-BB8A-4937-9B84-843F49876A3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C4436E7-918A-4956-8EE9-19A1267C9477}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C4436E7-918A-4956-8EE9-19A1267C9477}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C4436E7-918A-4956-8EE9-19A1267C9477}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C4436E7-918A-4956-8EE9-19A1267C9477}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F2313D9-E383-4781-A96D-09C03BAD8FE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F2313D9-E383-4781-A96D-09C03BAD8FE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F2313D9-E383-4781-A96D-09C03BAD8FE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F2313D9-E383-4781-A96D-09C03BAD8FE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C76856A-0385-42E7-B860-DA90300A19F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C76856A-0385-42E7-B860-DA90300A19F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C76856A-0385-42E7-B860-DA90300A19F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C76856A-0385-42E7-B860-DA90300A19F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2882065C-7F4E-4ADC-A537-5BFE1506587A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2882065C-7F4E-4ADC-A537-5BFE1506587A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2882065C-7F4E-4ADC-A537-5BFE1506587A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2882065C-7F4E-4ADC-A537-5BFE1506587A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F05A22E4-610B-43BB-BC6D-EBC64FDCAEE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F05A22E4-610B-43BB-BC6D-EBC64FDCAEE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F05A22E4-610B-43BB-BC6D-EBC64FDCAEE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F05A22E4-610B-43BB-BC6D-EBC64FDCAEE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7003BE32-57E2-4C9D-97F5-A7EB24FB3C65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7003BE32-57E2-4C9D-97F5-A7EB24FB3C65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7003BE32-57E2-4C9D-97F5-A7EB24FB3C65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7003BE32-57E2-4C9D-97F5-A7EB24FB3C65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
