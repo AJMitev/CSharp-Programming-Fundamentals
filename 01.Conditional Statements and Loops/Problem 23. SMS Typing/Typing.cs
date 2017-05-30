@@ -8,7 +8,6 @@ public class Typing
         int characterCount = int.Parse(Console.ReadLine());
 
         //Logic
-
         string[][] smsTable = new string[][]
              {
                 new string[]{" "},
