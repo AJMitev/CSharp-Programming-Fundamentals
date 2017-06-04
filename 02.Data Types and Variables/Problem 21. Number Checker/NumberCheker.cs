@@ -18,7 +18,5 @@ public class NumberCheker
 
             Console.WriteLine("floating-point");
         }
-
-
     }
 }
