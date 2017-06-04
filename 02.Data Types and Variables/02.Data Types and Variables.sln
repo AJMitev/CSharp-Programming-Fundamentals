@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.12
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab - 01.Centuries to Minutes", "Lab - 01.Centuries to Minutes\Lab - 01.Centuries to Minutes.csproj", "{62BF4A87-CB6E-491E-B97B-9DE1EEBA2952}"
 EndProject
@@ -58,6 +58,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 18. Different Integers Size", "Problem 18. Different Integers Size\Problem 18. Different Integers Size.csproj", "{E4D82FBB-2C80-42FE-BFB1-E03E0753EF65}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 19. Thea the Photographer", "Problem 19. Thea the Photographer\Problem 19. Thea the Photographer.csproj", "{DBEA2A7E-CC31-48A1-BB1A-AB3F5100AE20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 20. Type Boundaries", "Problem 20. Type Boundaries\Problem 20. Type Boundaries.csproj", "{18BF724E-B856-4750-958F-05B461A4E41C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 21. Number Checker", "Problem 21. Number Checker\Problem 21. Number Checker.csproj", "{A6B30643-3A01-4C6A-A3C8-45CE1A33BCFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -177,6 +181,14 @@ Global
 		{DBEA2A7E-CC31-48A1-BB1A-AB3F5100AE20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBEA2A7E-CC31-48A1-BB1A-AB3F5100AE20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBEA2A7E-CC31-48A1-BB1A-AB3F5100AE20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18BF724E-B856-4750-958F-05B461A4E41C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18BF724E-B856-4750-958F-05B461A4E41C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18BF724E-B856-4750-958F-05B461A4E41C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18BF724E-B856-4750-958F-05B461A4E41C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6B30643-3A01-4C6A-A3C8-45CE1A33BCFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6B30643-3A01-4C6A-A3C8-45CE1A33BCFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6B30643-3A01-4C6A-A3C8-45CE1A33BCFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6B30643-3A01-4C6A-A3C8-45CE1A33BCFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
