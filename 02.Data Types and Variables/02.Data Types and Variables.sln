@@ -81,6 +81,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 29. Sum of Chars", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 30. String Concatenation", "Problem 30. String Concatenation\Problem 30. String Concatenation.csproj", "{CEB026A0-3137-4393-87B6-6D99D67850BD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 31. Beer Kegs", "Problem 31. Beer Kegs\Problem 31. Beer Kegs.csproj", "{2FF9A9D1-E18A-4E8A-9236-7F2748BE882C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -243,6 +245,10 @@ Global
 		{CEB026A0-3137-4393-87B6-6D99D67850BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEB026A0-3137-4393-87B6-6D99D67850BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEB026A0-3137-4393-87B6-6D99D67850BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FF9A9D1-E18A-4E8A-9236-7F2748BE882C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FF9A9D1-E18A-4E8A-9236-7F2748BE882C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FF9A9D1-E18A-4E8A-9236-7F2748BE882C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FF9A9D1-E18A-4E8A-9236-7F2748BE882C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
