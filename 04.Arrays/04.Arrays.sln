@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab 8 - Condense Array to N
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab 9 - Extract Middle", "Lab 9 - Extract Middle\Lab 9 - Extract Middle.csproj", "{1D7F5583-D6AB-4016-840B-C5D1A7CCCFB1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 01. Largest Common End", "Problem 01. Largest Common End\Problem 01. Largest Common End.csproj", "{AEA623C8-8485-42C0-A219-A7D48605811A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{1D7F5583-D6AB-4016-840B-C5D1A7CCCFB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D7F5583-D6AB-4016-840B-C5D1A7CCCFB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D7F5583-D6AB-4016-840B-C5D1A7CCCFB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEA623C8-8485-42C0-A219-A7D48605811A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEA623C8-8485-42C0-A219-A7D48605811A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEA623C8-8485-42C0-A219-A7D48605811A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEA623C8-8485-42C0-A219-A7D48605811A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
