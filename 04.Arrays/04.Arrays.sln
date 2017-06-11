@@ -43,6 +43,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 10. Pairs by Differ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 11. Equal Sums", "Problem 11. Equal Sums\Problem 11. Equal Sums.csproj", "{679DBBBB-400D-467B-AA5A-52A63751FE10}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 12. Array Statistics", "Problem 12. Array Statistics\Problem 12. Array Statistics.csproj", "{42382562-EBDF-4657-BB7B-DA11697AB586}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 13. Manipulate Array", "Problem 13. Manipulate Array\Problem 13. Manipulate Array.csproj", "{39F2B09C-6720-46A8-B115-3B65E94EF01A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +133,14 @@ Global
 		{679DBBBB-400D-467B-AA5A-52A63751FE10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{679DBBBB-400D-467B-AA5A-52A63751FE10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{679DBBBB-400D-467B-AA5A-52A63751FE10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42382562-EBDF-4657-BB7B-DA11697AB586}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42382562-EBDF-4657-BB7B-DA11697AB586}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42382562-EBDF-4657-BB7B-DA11697AB586}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42382562-EBDF-4657-BB7B-DA11697AB586}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39F2B09C-6720-46A8-B115-3B65E94EF01A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39F2B09C-6720-46A8-B115-3B65E94EF01A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39F2B09C-6720-46A8-B115-3B65E94EF01A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39F2B09C-6720-46A8-B115-3B65E94EF01A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
