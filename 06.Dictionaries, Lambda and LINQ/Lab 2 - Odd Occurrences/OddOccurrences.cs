@@ -14,14 +14,12 @@ public class OddOccurrences
 
         foreach (var word in input)
         {
-            if (words.ContainsKey(word))
-            {
-                words[word]++;
-            }
-            else
+            if (!words.ContainsKey(word))
             {
                 words[word] = 1;
             }
+
+            words[word]++;
         }
 
         var result = new List<string>();

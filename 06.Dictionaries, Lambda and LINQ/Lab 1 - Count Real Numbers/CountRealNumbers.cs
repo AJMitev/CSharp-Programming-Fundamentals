@@ -14,15 +14,12 @@ public class CountRealNumbers
 
         foreach (double number in numbers)
         {
-            if (realNumbers.ContainsKey(number))
-            {
-                realNumbers[number]++;
-            }
-            else
+            if (!realNumbers.ContainsKey(number))
             {
                 realNumbers[number] = 1;
             }
 
+            realNumbers[number]++;
         }
 
         foreach (var number in realNumbers)
