@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 10. Parking Validat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 11. Byte Flip", "Problem 11. Byte Flip\Problem 11. Byte Flip.csproj", "{0B9A6452-8160-4801-AF26-0FE1F1654AE6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 12. Take-Skip Rope", "Problem 12. Take-Skip Rope\Problem 12. Take-Skip Rope.csproj", "{B693146B-DF44-4593-9DBF-9A04DC538AC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{0B9A6452-8160-4801-AF26-0FE1F1654AE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B9A6452-8160-4801-AF26-0FE1F1654AE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B9A6452-8160-4801-AF26-0FE1F1654AE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B693146B-DF44-4593-9DBF-9A04DC538AC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B693146B-DF44-4593-9DBF-9A04DC538AC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B693146B-DF44-4593-9DBF-9A04DC538AC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B693146B-DF44-4593-9DBF-9A04DC538AC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
