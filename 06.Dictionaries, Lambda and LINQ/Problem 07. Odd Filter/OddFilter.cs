@@ -27,8 +27,6 @@ public class OddFilter
 
         }
 
-        // var filteredOdds = selectedNumbers.Where(x => x % 2 == 1);
-
         foreach (int number in selectedNumbers)
         {
             Console.Write(number + " ");

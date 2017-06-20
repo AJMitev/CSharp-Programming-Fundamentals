@@ -33,6 +33,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 08. Immune System",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 09. Supermarket Database", "Problem 09. Supermarket Database\Problem 09. Supermarket Database.csproj", "{1DD08082-C3A0-49C0-8F8B-793F8824D09C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 10. Parking Validation", "Problem 10. Parking Validation\Problem 10. Parking Validation.csproj", "{C20F15EB-D1DB-410B-8A30-BF1718575567}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 11. Byte Flip", "Problem 11. Byte Flip\Problem 11. Byte Flip.csproj", "{0B9A6452-8160-4801-AF26-0FE1F1654AE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +103,14 @@ Global
 		{1DD08082-C3A0-49C0-8F8B-793F8824D09C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DD08082-C3A0-49C0-8F8B-793F8824D09C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DD08082-C3A0-49C0-8F8B-793F8824D09C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C20F15EB-D1DB-410B-8A30-BF1718575567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C20F15EB-D1DB-410B-8A30-BF1718575567}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C20F15EB-D1DB-410B-8A30-BF1718575567}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C20F15EB-D1DB-410B-8A30-BF1718575567}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B9A6452-8160-4801-AF26-0FE1F1654AE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B9A6452-8160-4801-AF26-0FE1F1654AE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B9A6452-8160-4801-AF26-0FE1F1654AE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B9A6452-8160-4801-AF26-0FE1F1654AE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -53,9 +53,8 @@ public class PrintProducts
 
             Console.WriteLine($"{name}: ${productsPrice[name]:F2} * {productsQuantity[name]} = ${productsCalculatedPrice[name]:F2}");
         }
+
         Console.WriteLine(new string('-',30));
         Console.WriteLine($"Grand Total: ${productsCalculatedPrice.Values.Sum():f2}");
-
-
     }
 }
