@@ -7,4 +7,4 @@ This repository contains solved problems during my programming fundamentals educ
 3. [Methods. Debugging and Troubleshooting](./03.Methods.Debugging%20and%20Troubleshooting)   //All problems solved.
 4. [Arrays](./04.Arrays)   //All problems solved.
 5. [Lists](./05.Lists)   //Problems from exercise are solved.
-6. [Dictionaries, Lambda and LINQ](./06.Dictionaries%2C%20Lambda%20and%20LINQ)   //Problems from Lab are solved.
+6. [Dictionaries, Lambda and LINQ](./06.Dictionaries%2C%20Lambda%20and%20LINQ)   //All problems solved.*
