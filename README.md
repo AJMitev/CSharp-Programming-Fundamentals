@@ -9,3 +9,6 @@ This repository contains solved problems during my programming fundamentals educ
 5. [Lists](./05.Lists)   //Problems from exercise are solved.
 6. [Dictionaries, Lambda and LINQ](./06.Dictionaries%2C%20Lambda%20and%20LINQ)   //All requared problems solved.*
 7. [Objects and Classes](./07.Objects%20and%20Classes)   //All requared problems solved.*
+8. [Files, Directories and Exceptions](./08.Files%2C%20Directories%20and%20Exceptions)
+9. [Strings and Text Processing](./09.Strings%20and%20Text%20Processing)
+10. [Regular Expressions](./10.Regular%20Expressions)
