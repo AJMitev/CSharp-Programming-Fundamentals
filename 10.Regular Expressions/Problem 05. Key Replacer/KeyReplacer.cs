@@ -23,24 +23,14 @@ public class KeyReplacer
                .Where(w => w != "")
                .ToArray();
 
-        //var replaced = Regex.Replace(textString, startKey.Groups[1].ToString(), "[");
-        //replaced = Regex.Replace(replaced, endKey.Groups[1].ToString(), "]");
+        if (words.Length != 0)
+        {
+            Console.WriteLine(string.Join("", words));
+        }
+        else
+        {
+            Console.WriteLine("Empty result");
 
-        //string extractPattern = @"\[(.*?)\]";
-        //bool isItEmpty = true;
-        //var matches = Regex.Matches(replaced, extractPattern);
-
-        //foreach (Match match in matches)
-        //{
-        //    if (match.Length >= 3)
-        //    {
-        //        isItEmpty = false;
-        //        Console.Write(match.Groups[1].ToString());
-        //    } 
-        //}
-        //if (isItEmpty)
-        //{
-        //    Console.WriteLine("Empty result");
-        //}
+        }
     }
 }

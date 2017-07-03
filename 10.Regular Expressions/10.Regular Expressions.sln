@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 04. Weather", "Prob
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 05. Key Replacer", "Problem 05. Key Replacer\Problem 05. Key Replacer.csproj", "{147C471F-6F44-488C-8441-23C765ECB005}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 06. Valid Usernames", "Problem 06. Valid Usernames\Problem 06. Valid Usernames.csproj", "{A928C02A-923A-45C2-A003-C88BA79C9AF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 07. Query Mess", "Problem 07. Query Mess\Problem 07. Query Mess.csproj", "{D4642DEC-577A-465A-B1A2-F3E6325C3173}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{147C471F-6F44-488C-8441-23C765ECB005}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{147C471F-6F44-488C-8441-23C765ECB005}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{147C471F-6F44-488C-8441-23C765ECB005}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A928C02A-923A-45C2-A003-C88BA79C9AF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A928C02A-923A-45C2-A003-C88BA79C9AF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A928C02A-923A-45C2-A003-C88BA79C9AF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A928C02A-923A-45C2-A003-C88BA79C9AF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4642DEC-577A-465A-B1A2-F3E6325C3173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4642DEC-577A-465A-B1A2-F3E6325C3173}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4642DEC-577A-465A-B1A2-F3E6325C3173}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4642DEC-577A-465A-B1A2-F3E6325C3173}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
