@@ -50,6 +50,5 @@ public class WinningTicket
                 Console.WriteLine($"ticket \"{ticket}\" - no match");
             }
         }
-
     }
 }

@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 03. Endurance Rally
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 04. Winning Ticket", "Problem 04. Winning Ticket\Problem 04. Winning Ticket.csproj", "{DEA7613B-AE86-4877-94C8-6C662549C8F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 05. Charity Marathon", "Problem 05. Charity Marathon\Problem 05. Charity Marathon.csproj", "{57F58D7A-AC9D-4E19-A739-C02A612F1155}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 06. Ladybugs", "Problem 06. Ladybugs\Problem 06. Ladybugs.csproj", "{DD62590B-4F1C-48EF-B4ED-73A1261EB74B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{DEA7613B-AE86-4877-94C8-6C662549C8F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DEA7613B-AE86-4877-94C8-6C662549C8F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DEA7613B-AE86-4877-94C8-6C662549C8F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57F58D7A-AC9D-4E19-A739-C02A612F1155}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57F58D7A-AC9D-4E19-A739-C02A612F1155}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57F58D7A-AC9D-4E19-A739-C02A612F1155}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57F58D7A-AC9D-4E19-A739-C02A612F1155}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD62590B-4F1C-48EF-B4ED-73A1261EB74B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD62590B-4F1C-48EF-B4ED-73A1261EB74B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD62590B-4F1C-48EF-B4ED-73A1261EB74B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD62590B-4F1C-48EF-B4ED-73A1261EB74B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
