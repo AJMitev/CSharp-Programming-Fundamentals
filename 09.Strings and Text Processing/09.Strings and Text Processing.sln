@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab - 01. Reverse String", "Lab - 01. Reverse String\Lab - 01. Reverse String.csproj", "{585E6A14-ADF8-4398-800A-CEF0371C3B1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab - 01. Reverse String", "Lab - 01. Reverse String\Lab - 01. Reverse String.csproj", "{585E6A14-ADF8-4398-800A-CEF0371C3B1E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab - 02. Count Substring Occurrences", "Lab - 02. Count Substring Occurrences\Lab - 02. Count Substring Occurrences.csproj", "{884FD871-9D66-4C93-B48E-795823D56D57}"
 EndProject
@@ -24,6 +24,16 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 06. Sum Big Numbers", "Problem 06. Sum Big Numbers\Problem 06. Sum Big Numbers.csproj", "{1FFF3126-902C-45C2-A300-7E49744A7E8C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 07. Multiply Big Number", "Problem 07. Multiply Big Number\Problem 07. Multiply Big Number.csproj", "{C56D400E-EE01-49A7-8A15-ADDB69855217}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 08. Censorship", "Problem 08. Censorship\Problem 08. Censorship.csproj", "{12193C25-B95A-4166-984C-E583800C8AF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 09. Email Me", "Problem 09. Email Me\Problem 09. Email Me.csproj", "{749519DB-D865-4254-B11A-ACB530F65030}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 10. Karate Strings", "Problem 10. Karate Strings\Problem 10. Karate Strings.csproj", "{978FD3F9-B741-4660-8232-61772D276FCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 11. Morse Code Upgraded", "Problem 11. Morse Code Upgraded\Problem 11. Morse Code Upgraded.csproj", "{E8A33681-6F4C-4E79-B83C-27A669C516AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 12. Only Letters", "Problem 12. Only Letters\Problem 12. Only Letters.csproj", "{C3023639-A21E-47F5-991C-4DF5A1D6CF27}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +85,26 @@ Global
 		{C56D400E-EE01-49A7-8A15-ADDB69855217}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C56D400E-EE01-49A7-8A15-ADDB69855217}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C56D400E-EE01-49A7-8A15-ADDB69855217}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12193C25-B95A-4166-984C-E583800C8AF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12193C25-B95A-4166-984C-E583800C8AF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12193C25-B95A-4166-984C-E583800C8AF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12193C25-B95A-4166-984C-E583800C8AF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{749519DB-D865-4254-B11A-ACB530F65030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{749519DB-D865-4254-B11A-ACB530F65030}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{749519DB-D865-4254-B11A-ACB530F65030}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{749519DB-D865-4254-B11A-ACB530F65030}.Release|Any CPU.Build.0 = Release|Any CPU
+		{978FD3F9-B741-4660-8232-61772D276FCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{978FD3F9-B741-4660-8232-61772D276FCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{978FD3F9-B741-4660-8232-61772D276FCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{978FD3F9-B741-4660-8232-61772D276FCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8A33681-6F4C-4E79-B83C-27A669C516AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8A33681-6F4C-4E79-B83C-27A669C516AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8A33681-6F4C-4E79-B83C-27A669C516AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8A33681-6F4C-4E79-B83C-27A669C516AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3023639-A21E-47F5-991C-4DF5A1D6CF27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3023639-A21E-47F5-991C-4DF5A1D6CF27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3023639-A21E-47F5-991C-4DF5A1D6CF27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3023639-A21E-47F5-991C-4DF5A1D6CF27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
