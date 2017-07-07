@@ -35,6 +35,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 11. Morse Code Upgr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 12. Only Letters", "Problem 12. Only Letters\Problem 12. Only Letters.csproj", "{C3023639-A21E-47F5-991C-4DF5A1D6CF27}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 13. Email Statistics", "Problem 13. Email Statistics\Problem 13. Email Statistics.csproj", "{79831011-8813-4C9F-BE39-E1C2DC5A7AC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 14. Hideout", "Problem 14. Hideout\Problem 14. Hideout.csproj", "{8D9AE624-C7BF-4675-A968-B64093F6B13D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +109,14 @@ Global
 		{C3023639-A21E-47F5-991C-4DF5A1D6CF27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3023639-A21E-47F5-991C-4DF5A1D6CF27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3023639-A21E-47F5-991C-4DF5A1D6CF27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79831011-8813-4C9F-BE39-E1C2DC5A7AC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79831011-8813-4C9F-BE39-E1C2DC5A7AC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79831011-8813-4C9F-BE39-E1C2DC5A7AC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79831011-8813-4C9F-BE39-E1C2DC5A7AC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D9AE624-C7BF-4675-A968-B64093F6B13D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D9AE624-C7BF-4675-A968-B64093F6B13D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D9AE624-C7BF-4675-A968-B64093F6B13D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D9AE624-C7BF-4675-A968-B64093F6B13D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
