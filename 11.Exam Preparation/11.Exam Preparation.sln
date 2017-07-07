@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.14
+VisualStudioVersion = 15.0.26430.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 01. Sino The Walker", "Problem 01. Sino The Walker\Problem 01. Sino The Walker.csproj", "{CFBA5830-3D65-483B-9197-9EFFBC2832E9}"
 EndProject
@@ -14,6 +14,18 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 05. Charity Marathon", "Problem 05. Charity Marathon\Problem 05. Charity Marathon.csproj", "{57F58D7A-AC9D-4E19-A739-C02A612F1155}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 06. Ladybugs", "Problem 06. Ladybugs\Problem 06. Ladybugs.csproj", "{DD62590B-4F1C-48EF-B4ED-73A1261EB74B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 07. Nether Realms", "Problem 07. Nether Realms\Problem 07. Nether Realms.csproj", "{27F41FCF-7519-4FF1-9986-41032BF81059}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 08. Roli - The Coder", "Problem 08. Roli - The Coder\Problem 08. Roli - The Coder.csproj", "{F202E089-E67C-4B1B-9BC6-CC0F5D48B916}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 09. SoftUni Coffee Orders", "Problem 09. SoftUni Coffee Orders\Problem 09. SoftUni Coffee Orders.csproj", "{F3B2D4BE-7EFD-4C04-B757-874CB9A4F8E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 10. Command Interpreter", "Problem 10. Command Interpreter\Problem 10. Command Interpreter.csproj", "{314DF235-1BCA-49E6-A518-DB2888C0A9C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 11. Rage Quit", "Problem 11. Rage Quit\Problem 11. Rage Quit.csproj", "{F5DBECB2-A4C5-4376-8C9E-C967450F20A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 12. Files", "Problem 12. Files\Problem 12. Files.csproj", "{47B6D875-4D06-48E1-A5AD-A08A626AF7FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +57,30 @@ Global
 		{DD62590B-4F1C-48EF-B4ED-73A1261EB74B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD62590B-4F1C-48EF-B4ED-73A1261EB74B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD62590B-4F1C-48EF-B4ED-73A1261EB74B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27F41FCF-7519-4FF1-9986-41032BF81059}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27F41FCF-7519-4FF1-9986-41032BF81059}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27F41FCF-7519-4FF1-9986-41032BF81059}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27F41FCF-7519-4FF1-9986-41032BF81059}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F202E089-E67C-4B1B-9BC6-CC0F5D48B916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F202E089-E67C-4B1B-9BC6-CC0F5D48B916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F202E089-E67C-4B1B-9BC6-CC0F5D48B916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F202E089-E67C-4B1B-9BC6-CC0F5D48B916}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3B2D4BE-7EFD-4C04-B757-874CB9A4F8E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3B2D4BE-7EFD-4C04-B757-874CB9A4F8E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3B2D4BE-7EFD-4C04-B757-874CB9A4F8E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3B2D4BE-7EFD-4C04-B757-874CB9A4F8E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{314DF235-1BCA-49E6-A518-DB2888C0A9C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{314DF235-1BCA-49E6-A518-DB2888C0A9C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{314DF235-1BCA-49E6-A518-DB2888C0A9C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{314DF235-1BCA-49E6-A518-DB2888C0A9C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5DBECB2-A4C5-4376-8C9E-C967450F20A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5DBECB2-A4C5-4376-8C9E-C967450F20A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5DBECB2-A4C5-4376-8C9E-C967450F20A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5DBECB2-A4C5-4376-8C9E-C967450F20A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47B6D875-4D06-48E1-A5AD-A08A626AF7FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47B6D875-4D06-48E1-A5AD-A08A626AF7FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47B6D875-4D06-48E1-A5AD-A08A626AF7FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47B6D875-4D06-48E1-A5AD-A08A626AF7FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
