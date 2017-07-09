@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 11. Rage Quit", "Pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 12. Files", "Problem 12. Files\Problem 12. Files.csproj", "{47B6D875-4D06-48E1-A5AD-A08A626AF7FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 13. Sweet Dessert", "Problem 13. Sweet Dessert\Problem 13. Sweet Dessert.csproj", "{CACE0879-80DF-4E62-81F0-020316B203D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 14. Array Manipulator", "Problem 14. Array Manipulator\Problem 14. Array Manipulator.csproj", "{5CA8C61F-3F34-42B9-A30D-6CDBE067CB82}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,14 @@ Global
 		{47B6D875-4D06-48E1-A5AD-A08A626AF7FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47B6D875-4D06-48E1-A5AD-A08A626AF7FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47B6D875-4D06-48E1-A5AD-A08A626AF7FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CACE0879-80DF-4E62-81F0-020316B203D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CACE0879-80DF-4E62-81F0-020316B203D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CACE0879-80DF-4E62-81F0-020316B203D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CACE0879-80DF-4E62-81F0-020316B203D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CA8C61F-3F34-42B9-A30D-6CDBE067CB82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CA8C61F-3F34-42B9-A30D-6CDBE067CB82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CA8C61F-3F34-42B9-A30D-6CDBE067CB82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CA8C61F-3F34-42B9-A30D-6CDBE067CB82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
