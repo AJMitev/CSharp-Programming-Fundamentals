@@ -1,141 +1,242 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 public class ArrayManipulator
 {
     public static void Main()
     {
-        var numberArray = Console.ReadLine().Split().Select(int.Parse).ToList();
+        List<long> numbers = Console.ReadLine().Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).Select(long.Parse).ToList();
 
-        string line = Console.ReadLine();
-
-        while (line != "end")
+        while (true)
         {
+            string command = Console.ReadLine().ToLower();
+            if (command.ToLower() == "end") break;
 
-            var command = line.Split();
+            string[] input = command.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+            string action = input[0];
+            string type = string.Empty;
 
-            string action = command[0];
+            long tempNumMax = long.MinValue;
+            long tempNumMin = long.MaxValue;
+            int count = 0;
+            int index = 0;
+
+            List<long> tempList = new List<long>();
+            List<long> tempListCount = new List<long>();
             switch (action)
             {
                 case "exchange":
-                    int index = int.Parse(command[1]);
-                    index = (index % numberArray.Count) + 1;
-
-                    if (index >= 0 && index <= numberArray.Count)
-                    {
-                        ArrayExchange(numberArray, index);
-                    }
-                    else
+                    index = int.Parse(input[1]);
+                    if (index >= numbers.Count || index < 0)
                     {
                         Console.WriteLine("Invalid index");
+                        break;
                     }
+
+                    tempList = numbers.Take(index + 1).ToList();
+                    numbers.RemoveRange(0, index + 1);
+                    numbers.AddRange(tempList);
                     break;
+
                 case "max":
-                    string maxType = command[1];
-                    int maxIndex = GetMaxIndex(numberArray, maxType);
-                    if (maxIndex.Equals(-1))
+                    type = input[1];
+                    if (type == "even")
                     {
-                        Console.WriteLine("No matches");
+                        foreach (long num in numbers)
+                        {
+                            if (num % 2 == 0)
+                            {
+                                if (num > tempNumMax)
+                                    tempNumMax = num;
+                            }
+                        }
+                        if (tempNumMax == long.MinValue)
+                        {
+                            Console.WriteLine("No matches");
+                        }
+                        else
+                        {
+                            Console.WriteLine("{0}", numbers.LastIndexOf(tempNumMax));
+                        }
+                    }
+                    else if (type == "odd")
+                    {
+                        foreach (long num in numbers)
+                        {
+                            if (num % 2 == 1)
+                            {
+                                if (num > tempNumMax)
+                                    tempNumMax = num;
+                            }
+                        }
+                        if (tempNumMax == long.MinValue)
+                        {
+                            Console.WriteLine("No matches"); ;
+                        }
+                        else
+                        {
+                            Console.WriteLine("{0}", numbers.LastIndexOf(tempNumMax));
+                        }
                     }
                     break;
+
                 case "min":
-                    string minType = command[1];
-                    int minIndex = GetMinIndex(numberArray, minType);
-                    if (minIndex.Equals(-1))
+                    type = input[1];
+                    if (type == "even")
                     {
-                        Console.WriteLine("No matches");
+                        foreach (long num in numbers)
+                        {
+                            if (num % 2 == 0)
+                            {
+                                if (num < tempNumMin)
+                                    tempNumMin = num;
+                            }
+                        }
+                        if (tempNumMin == long.MaxValue)
+                        {
+                            Console.WriteLine("No matches");
+                        }
+                        else
+                        {
+                            Console.WriteLine("{0}", numbers.LastIndexOf(tempNumMin));
+                        }
+
+                    }
+                    else if (type == "odd")
+                    {
+                        foreach (long num in numbers)
+                        {
+                            if (num % 2 == 1)
+                            {
+                                if (num < tempNumMin)
+                                    tempNumMin = num;
+                            }
+                        }
+                        if (tempNumMin == long.MaxValue)
+                        {
+                            Console.WriteLine("No matches");
+                        }
+                        else
+                        {
+                            Console.WriteLine("{0}", numbers.LastIndexOf(tempNumMin));
+                        }
                     }
                     break;
+
                 case "first":
-                    FindFirst(numberArray, command);
+                    count = int.Parse(input[1]);
+                    type = input[2];
+
+                    if (count > numbers.Count || count < 0)
+                    {
+                        Console.WriteLine("Invalid count");
+                        break;
+                    }
+                    if (type == "even")
+                    {
+                        foreach (long num in numbers)
+                        {
+                            if (num % 2 == 0)
+                            {
+                                tempListCount.Add(num);
+                                if (tempListCount.Count == count)
+                                {
+                                    Console.WriteLine("[{0}]", string.Join(", ", tempListCount));
+                                    break;
+                                }
+                            }
+                        }
+                        if (tempListCount.Count < count)
+                        {
+                            Console.WriteLine("[{0}]", string.Join(", ", tempListCount));
+                        }
+                    }
+                    else if (type == "odd")
+                    {
+                        foreach (long num in numbers)
+                        {
+                            if (num % 2 == 1)
+                            {
+                                tempListCount.Add(num);
+                                if (tempListCount.Count == count)
+                                {
+                                    Console.WriteLine("[{0}]", string.Join(", ", tempListCount));
+                                    break;
+                                }
+                            }
+                        }
+                        if (tempListCount.Count < count)
+                        {
+                            Console.WriteLine("[{0}]", string.Join(", ", tempListCount));
+                        }
+                    }
                     break;
+
                 case "last":
+                    count = int.Parse(input[1]);
+                    type = input[2];
+
+                    if (count > numbers.Count || count < 0)
+                    {
+                        Console.WriteLine("Invalid count");
+                        break;
+                    }
+
+                    if (type == "even")
+                    {
+
+                        for (int i = numbers.Count - 1; i >= 0; i--)
+                        {
+
+                            if (numbers[i] % 2 == 0)
+                            {
+                                tempListCount.Add(numbers[i]);
+
+                                if (tempListCount.Count == count)
+                                {
+                                    tempListCount.Reverse();
+                                    Console.WriteLine("[{0}]", string.Join(", ", tempListCount));
+                                    break;
+                                }
+                            }
+                        }
+
+                        if (tempListCount.Count < count)
+                        {
+                            tempListCount.Reverse();
+                            Console.WriteLine("[{0}]", string.Join(", ", tempListCount));
+                        }
+                    }
+                    else if (type == "odd")
+                    {
+                        for (int i = numbers.Count - 1; i >= 0; i--)
+                        {
+
+                            if (numbers[i] % 2 == 1)
+                            {
+                                tempListCount.Add(numbers[i]);
+
+                                if (tempListCount.Count == count)
+                                {
+                                    tempListCount.Reverse();
+                                    Console.WriteLine("[{0}]", string.Join(", ", tempListCount));
+                                    break;
+                                }
+                            }
+                        }
+
+                        if (tempListCount.Count < count)
+                        {
+                            tempListCount.Reverse();
+                            Console.WriteLine("[{0}]", string.Join(", ", tempListCount));
+                        }
+                    }
                     break;
-                default:
-                    break;
-            }
 
-
-            line = Console.ReadLine();
-        }
-    }
-
-    private static void FindFirst(List<int> numberArray, string[] command)
-    {
-        int countFirst = int.Parse(command[1]);
-        int[] firsOfType = new int[countFirst];
-
-        for (int i = 0; i < countFirst; i++)
-        {
-
-        }
-        var currentNum = numberArray.FindIndex(0,countFirst,x => x % 2 == 2);
-    }
-
-    private static int GetMinIndex(List<int> numberArray, string type)
-    {
-        int currentOperator = 0;
-        if (type.Equals("even"))
-        {
-            currentOperator = 2;
-        }
-        else if (type.Equals("odd"))
-        {
-            currentOperator = 1;
-        }
-
-        int minIndex = -1;
-        int minNumber = 0;
-
-        for (int i = 0; i < numberArray.Count; i++)
-        {
-            int currentNumber = numberArray[i];
-
-            if (i % 2 == currentOperator && minNumber < currentNumber)
-            {
-                minIndex = i;
             }
         }
 
-        return minIndex;
-    }
-    private static int GetMaxIndex(List<int> numberArray, string type)
-    {
-        int currentOperator = 0;
-        if (type.Equals("even"))
-        {
-            currentOperator = 2;
-        }
-        else if (type.Equals("odd"))
-        {
-            currentOperator = 1;
-        }
-
-        int maxIndex = -1;
-        int maxNumber = 0;
-
-        for (int i = 0; i < numberArray.Count; i++)
-        {
-            int currentNumber = numberArray[i];
-
-            if (i % 2 == currentOperator && maxNumber > currentNumber)
-            {
-                maxIndex = i;
-            }
-        }
-
-        return maxIndex;
-    }
-
-    private static void ArrayExchange(List<int> numberArray, int index)
-    {
-
-        for (int i = 0; i < index; i++)
-        {
-            numberArray.Insert(numberArray.Count, numberArray[0]);
-            numberArray.Remove(numberArray[0]);
-        }
+        Console.WriteLine("[{0}]", string.Join(", ", numbers));
     }
 }
