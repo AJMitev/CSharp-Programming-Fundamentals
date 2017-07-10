@@ -13,3 +13,4 @@ This repository contains solved problems during my programming fundamentals educ
 9. [Strings and Text Processing](./09.Strings%20and%20Text%20Processing)
 10. [Regular Expressions](./10.Regular%20Expressions) 
 11. [Exam Preparation](./11.Exam%20Preparation)
+12. [Exam](./12.Exam)
